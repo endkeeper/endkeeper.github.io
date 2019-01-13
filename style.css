@@ -1,0 +1,78 @@
+.title{
+	margin-top: 30px;
+	align-items: flex-end;
+	font-family: "Comic Sans MS";
+}
+.title h1{
+	font-size: 60px;
+}
+
+header {
+	display: flex;
+}
+	.logo{
+	padding: 0.521in 9.063in 0.417in 0.469in;
+	background: white;}
+
+body{
+	margin: 50px 100px 50px 100px;
+	font-family: "Open Sans";
+	background: #f9f9f9;
+}
+.container{
+	border-right: 1px solid #dbdbdb;
+	border-left: 1px solid #dbdbdb;
+	background: white;
+	padding-bottom: 0.625in;
+}
+a{
+	text-decoration: none;
+}
+.content{
+	display: flex;
+	margin-bottom: 0.250in;
+}
+.menu{
+	justify-content: flex-start;
+	margin: 0in 0.5in 0in 0.479in;
+}
+.menu li{
+	font-size: 12px;
+	white-space: nowrap;
+	list-style-type: none;
+	border: 1px solid #c8c8c8;
+	padding: 0.167in 1.5in 0.073in 0.250in;
+}
+.menu li:hover{
+	background: #f9f9f9;
+	padding: 0.167in 0 0.073in 0.375in;
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+.blank{
+	padding: 0.490in 350px 0.479in 550px;
+	border: 1px solid #c8c8c8;
+	margin:0 0.5in 0.406in 0;
+	text-align: center;
+}
+.video{
+	align-items: flex-end;
+	margin: 0in 0.5in 0in 0in;
+	padding: 0in 0.25in 0in 0.25in;
+}
+footer{
+	font-size: 14px;
+	background: url("panel2.png");
+	color: black;
+	margin: 0 0.5in 0in 0.479in;
+	padding: 2px 0 2px 0;
+}
+
+.copyright{
+	margin-left: 1100px;
+}
+li a{
+	color:black;
+}
