@@ -1,78 +1,72 @@
-.title{
-	margin-top: 30px;
-	align-items: flex-end;
-	font-family: "Comic Sans MS";
-}
-.title h1{
-	font-size: 60px;
-}
-
-header {
-	display: flex;
-}
-	.logo{
-	padding: 0.521in 9.063in 0.417in 0.469in;
-	background: white;}
-
 body{
-	margin: 50px 100px 50px 100px;
-	font-family: "Open Sans";
-	background: #f9f9f9;
+    background-image: url("img/bg.jpg");
 }
 .container{
-	border-right: 1px solid #dbdbdb;
-	border-left: 1px solid #dbdbdb;
-	background: white;
-	padding-bottom: 0.625in;
+    background: rgba(25, 25, 25, 0.70);
+    margin: 200px auto 0 auto;
+    width: 500px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+.container img{
+    height: 120px;
+    width: 120px;
+    margin: -60px 0 30px 0;
+    border-radius: 50%;
 }
 a{
-	text-decoration: none;
+color: white;
 }
-.content{
-	display: flex;
-	margin-bottom: 0.250in;
+a:hover{
+    text-decoration: none;
 }
-.menu{
-	justify-content: flex-start;
-	margin: 0in 0.5in 0in 0.479in;
+input[type="text"], input[type="password"]{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 45px;
+    margin: 7px;
+    border-radius: 7px;
 }
-.menu li{
-	font-size: 12px;
-	white-space: nowrap;
-	list-style-type: none;
-	border: 1px solid #c8c8c8;
-	padding: 0.167in 1.5in 0.073in 0.250in;
+.dws-input::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+    position: absolute;
+    font-size:30px;
+    color: black;
+    padding: 15px 0 0 15px;
+    color: rgba(25, 25, 25, 0.70);
 }
-.menu li:hover{
-	background: #f9f9f9;
-	padding: 0.167in 0 0.073in 0.375in;
+.submit{
+    margin: 5px 0 20px 0;
+    padding: 13px 30px;
+    background: white;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 150px;
 }
-.menu ul{
-	margin: 0px;
-	padding: 0px;
+.submit:hover{
+    transition: all 0.5s;
+    color: white;
+    background-color: #191919;
 }
-.blank{
-	padding: 0.490in 350px 0.479in 550px;
-	border: 1px solid #c8c8c8;
-	margin:0 0.5in 0.406in 0;
-	text-align: center;
+.dws-input:nth-child(2)::before{
+    content: "\f023";
+    transition: all 0.3s;
 }
-.video{
-	align-items: flex-end;
-	margin: 0in 0.5in 0in 0in;
-	padding: 0in 0.25in 0in 0.25in;
+.dws-input input:hover{
+    box-shadow: 0 0 6px 3px white;
 }
-footer{
-	font-size: 14px;
-	background: url("panel2.png");
-	color: black;
-	margin: 0 0.5in 0in 0.479in;
-	padding: 2px 0 2px 0;
+.social i{
+    color: white;
+    font-size: 20px;
+    padding: 14px;
+    width: 20px;
 }
-
-.copyright{
-	margin-left: 1100px;
-}
-li a{
-	color:black;
+.social i:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
 }
